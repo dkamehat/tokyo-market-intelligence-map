@@ -1,0 +1,19 @@
+{
+  "_comment": "SCHEMA FIXTURE ONLY. Mirrors an MLIT N02 Station-layer GeoJSON FeatureCollection, with an injected 'area_code' per feature (which in live data would come from a deferred GIS point-in-polygon step). Values are illustrative and NOT an authoritative MLIT extract. Includes a station served by two lines (same name -> de-duplicated), a feature with no area_code (dropped), and a non-ward station (filtered). 出典：国土数値情報（鉄道データ N02）（国土交通省）",
+  "type": "FeatureCollection",
+  "features": [
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.700, 35.690]}, "properties": {"N02_003": "JR山手線", "N02_004": "東日本旅客鉄道", "N02_005": "新宿", "area_code": "13104"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.700, 35.690]}, "properties": {"N02_003": "小田急小田原線", "N02_004": "小田急電鉄", "N02_005": "新宿", "area_code": "13104"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.702, 35.683]}, "properties": {"N02_003": "JR山手線", "N02_004": "東日本旅客鉄道", "N02_005": "代々木", "area_code": "13104"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.697, 35.700]}, "properties": {"N02_003": "JR中央線", "N02_004": "東日本旅客鉄道", "N02_005": "大久保", "area_code": "13104"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.767, 35.681]}, "properties": {"N02_003": "JR山手線", "N02_004": "東日本旅客鉄道", "N02_005": "東京", "area_code": "13101"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.764, 35.687]}, "properties": {"N02_003": "東京メトロ東西線", "N02_004": "東京地下鉄", "N02_005": "大手町", "area_code": "13101"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.701, 35.658]}, "properties": {"N02_003": "JR山手線", "N02_004": "東日本旅客鉄道", "N02_005": "渋谷", "area_code": "13113"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.702, 35.670]}, "properties": {"N02_003": "JR山手線", "N02_004": "東日本旅客鉄道", "N02_005": "原宿", "area_code": "13113"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.710, 35.646]}, "properties": {"N02_003": "JR山手線", "N02_004": "東日本旅客鉄道", "N02_005": "恵比寿", "area_code": "13113"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.685, 35.668]}, "properties": {"N02_003": "小田急小田原線", "N02_004": "小田急電鉄", "N02_005": "代々木上原", "area_code": "13113"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.665, 35.706]}, "properties": {"N02_003": "JR中央線", "N02_004": "東日本旅客鉄道", "N02_005": "中野", "area_code": "13114"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.620, 35.450]}, "properties": {"N02_003": "JR京浜東北線", "N02_004": "東日本旅客鉄道", "N02_005": "横浜エリア駅", "area_code": "14100"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.700, 35.690]}, "properties": {"N02_003": "未割当路線", "N02_004": "未割当", "N02_005": "未割当駅"}}
+  ]
+}

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+# Editable install artifacts
+*.egg-info/
+src/*.egg-info/
+
+# Secrets / local config (never commit credentials such as ESTAT_APP_ID)
+.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Local data artifacts
+# Keep raw/public-data downloads local unless explicitly license-compatible and small.
+data/raw/
+data/processed/
+*.duckdb
+*.parquet
+*.geojson
+*.gpkg
+*.zip
+
+# Local Claude preferences
+CLAUDE.local.md
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

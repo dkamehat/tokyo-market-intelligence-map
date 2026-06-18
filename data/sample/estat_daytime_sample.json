@@ -1,0 +1,73 @@
+{
+  "_comment": "SCHEMA FIXTURE ONLY. Mirrors the e-Stat getStatsData 3.0 JSON contract for the 2020 Census place-of-work/schooling table (daytime/nighttime population). Values are illustrative and are NOT an authoritative dataset. @cat01 distinguishes residence(nighttime)/work-school(daytime); @cat02 is sex. Daytime + sex-total is selected with {\"@cat01\": \"01\", \"@cat02\": \"000\"}. The live category codes are table-version specific and must be confirmed against the real table (see docs/data_sources.md).",
+  "GET_STATS_DATA": {
+    "RESULT": {
+      "STATUS": 0,
+      "ERROR_MSG": "正常に終了しました。",
+      "DATE": "2026-06-16T00:00:00.000+09:00"
+    },
+    "STATISTICAL_DATA": {
+      "TABLE_INF": {
+        "@id": "SAMPLE-FIXTURE",
+        "STATISTICS_NAME": "国勢調査 令和２年国勢調査 従業地・通学地集計",
+        "TITLE": "常住地又は従業地・通学地別人口（夜間人口・昼間人口）（市区町村）"
+      },
+      "CLASS_INF": {
+        "CLASS_OBJ": [
+          {
+            "@id": "cat01",
+            "@name": "常住地・従業地通学地別",
+            "CLASS": [
+              {"@code": "00", "@name": "常住地による人口（夜間人口）"},
+              {"@code": "01", "@name": "従業地・通学地による人口（昼間人口）"}
+            ]
+          },
+          {
+            "@id": "cat02",
+            "@name": "男女別",
+            "CLASS": [
+              {"@code": "000", "@name": "総数"},
+              {"@code": "001", "@name": "男"},
+              {"@code": "002", "@name": "女"}
+            ]
+          },
+          {
+            "@id": "area",
+            "@name": "地域",
+            "CLASS": [
+              {"@code": "13101", "@name": "東京都千代田区", "@level": "2"},
+              {"@code": "13102", "@name": "東京都中央区", "@level": "2"},
+              {"@code": "13103", "@name": "東京都港区", "@level": "2"},
+              {"@code": "13104", "@name": "東京都新宿区", "@level": "2"},
+              {"@code": "13113", "@name": "東京都渋谷区", "@level": "2"},
+              {"@code": "13114", "@name": "東京都中野区", "@level": "2"},
+              {"@code": "14100", "@name": "神奈川県横浜市", "@level": "1"}
+            ]
+          },
+          {
+            "@id": "time",
+            "@name": "時間軸",
+            "CLASS": [{"@code": "2020000000", "@name": "2020年"}]
+          }
+        ]
+      },
+      "DATA_INF": {
+        "VALUE": [
+          {"@cat01": "00", "@cat02": "000", "@area": "13101", "@time": "2020000000", "@unit": "人", "$": "66680"},
+          {"@cat01": "01", "@cat02": "000", "@area": "13101", "@time": "2020000000", "@unit": "人", "$": "1169000"},
+          {"@cat01": "00", "@cat02": "000", "@area": "13102", "@time": "2020000000", "@unit": "人", "$": "169179"},
+          {"@cat01": "01", "@cat02": "000", "@area": "13102", "@time": "2020000000", "@unit": "人", "$": "608000"},
+          {"@cat01": "00", "@cat02": "000", "@area": "13103", "@time": "2020000000", "@unit": "人", "$": "260486"},
+          {"@cat01": "01", "@cat02": "000", "@area": "13103", "@time": "2020000000", "@unit": "人", "$": "1182000"},
+          {"@cat01": "00", "@cat02": "000", "@area": "13104", "@time": "2020000000", "@unit": "人", "$": "349385"},
+          {"@cat01": "01", "@cat02": "000", "@area": "13104", "@time": "2020000000", "@unit": "人", "$": "903000"},
+          {"@cat01": "00", "@cat02": "000", "@area": "13113", "@time": "2020000000", "@unit": "人", "$": "243883"},
+          {"@cat01": "01", "@cat02": "000", "@area": "13113", "@time": "2020000000", "@unit": "人", "$": "542000"},
+          {"@cat01": "00", "@cat02": "000", "@area": "13114", "@time": "2020000000", "@unit": "人", "$": "344880"},
+          {"@cat01": "01", "@cat02": "000", "@area": "13114", "@time": "2020000000", "@unit": "人", "$": "281000"},
+          {"@cat01": "01", "@cat02": "000", "@area": "14100", "@time": "2020000000", "@unit": "人", "$": "3400000"}
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_comment": "SCHEMA FIXTURE ONLY. Mirrors an MLIT L01 (地価公示) GeoJSON FeatureCollection: each feature carries an administrative-area code (L01_017) and a land price in yen/m2 (L01_019). Values are illustrative and NOT an authoritative MLIT extract. Includes multiple observations per ward, a missing-price record (dropped), a record with no area code (dropped), and a non-ward record (filtered). 出典：国土数値情報（地価公示データ L01）（国土交通省）",
+  "type": "FeatureCollection",
+  "features": [
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.753, 35.694]}, "properties": {"L01_017": "13101", "L01_019": "4000000", "L01_006": "東京都千代田区A"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.758, 35.690]}, "properties": {"L01_017": "13101", "L01_019": "6000000", "L01_006": "東京都千代田区B"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.760, 35.691]}, "properties": {"L01_017": "13101", "L01_019": "5000000", "L01_006": "東京都千代田区C"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.761, 35.692]}, "properties": {"L01_017": "13101", "L01_019": "-", "L01_006": "東京都千代田区D (no price)"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.700, 35.690]}, "properties": {"L01_017": "13104", "L01_019": "1000000", "L01_006": "東京都新宿区A"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.703, 35.693]}, "properties": {"L01_017": "13104", "L01_019": "2000000", "L01_006": "東京都新宿区B"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.701, 35.658]}, "properties": {"L01_017": "13113", "L01_019": "3000000", "L01_006": "東京都渋谷区A"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.702, 35.659]}, "properties": {"L01_017": "13113", "L01_019": "3000000", "L01_006": "東京都渋谷区B"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.704, 35.661]}, "properties": {"L01_017": "13113", "L01_019": "9000000", "L01_006": "東京都渋谷区C"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.665, 35.706]}, "properties": {"L01_017": "13114", "L01_019": "800000", "L01_006": "東京都中野区A"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.620, 35.450]}, "properties": {"L01_017": "14100", "L01_019": "2500000", "L01_006": "神奈川県横浜市"}},
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.700, 35.690]}, "properties": {"L01_019": "1234000", "L01_006": "コード無し"}}
+  ]
+}

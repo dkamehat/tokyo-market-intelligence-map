@@ -1,0 +1,24 @@
+{
+  "_comment": "SCHEMA FIXTURE ONLY. Mirrors an Overpass out:json response for shop=convenience nodes, with an injected 'area_code' per element (as the per-ward live fetch adds). Values are illustrative and NOT an authoritative OSM extract. Includes one duplicate id and one missing-coords node to exercise the transform. © OpenStreetMap contributors.",
+  "version": 0.6,
+  "generator": "Overpass API (fixture)",
+  "elements": [
+    {"type": "node", "id": 1001, "lat": 35.694, "lon": 139.753, "tags": {"shop": "convenience", "name": "Store A"}, "area_code": "13101"},
+    {"type": "node", "id": 1002, "lat": 35.690, "lon": 139.758, "tags": {"shop": "convenience", "name": "Store B"}, "area_code": "13101"},
+    {"type": "node", "id": 1003, "lat": 35.691, "lon": 139.760, "tags": {"shop": "convenience", "name": "Store C"}, "area_code": "13101"},
+    {"type": "node", "id": 1004, "tags": {"shop": "convenience", "name": "Store D (no coords)"}, "area_code": "13101"},
+    {"type": "node", "id": 2001, "lat": 35.690, "lon": 139.700, "tags": {"shop": "convenience", "name": "Store E"}, "area_code": "13104"},
+    {"type": "node", "id": 2002, "lat": 35.693, "lon": 139.703, "tags": {"shop": "convenience", "name": "Store F"}, "area_code": "13104"},
+    {"type": "node", "id": 2003, "lat": 35.695, "lon": 139.705, "tags": {"shop": "convenience", "name": "Store G"}, "area_code": "13104"},
+    {"type": "node", "id": 2004, "lat": 35.697, "lon": 139.707, "tags": {"shop": "convenience", "name": "Store H"}, "area_code": "13104"},
+    {"type": "node", "id": 2005, "lat": 35.699, "lon": 139.709, "tags": {"shop": "convenience", "name": "Store I"}, "area_code": "13104"},
+    {"type": "node", "id": 2005, "lat": 35.699, "lon": 139.709, "tags": {"shop": "convenience", "name": "Store I (dup across ward query)"}, "area_code": "13104"},
+    {"type": "node", "id": 3001, "lat": 35.659, "lon": 139.700, "tags": {"shop": "convenience", "name": "Store J"}, "area_code": "13113"},
+    {"type": "node", "id": 3002, "lat": 35.661, "lon": 139.702, "tags": {"shop": "convenience", "name": "Store K"}, "area_code": "13113"},
+    {"type": "node", "id": 3003, "lat": 35.663, "lon": 139.704, "tags": {"shop": "convenience", "name": "Store L"}, "area_code": "13113"},
+    {"type": "node", "id": 3004, "lat": 35.665, "lon": 139.706, "tags": {"shop": "convenience", "name": "Store M"}, "area_code": "13113"},
+    {"type": "node", "id": 4001, "lat": 35.707, "lon": 139.665, "tags": {"shop": "convenience", "name": "Store N"}, "area_code": "13114"},
+    {"type": "node", "id": 4002, "lat": 35.709, "lon": 139.667, "tags": {"shop": "convenience", "name": "Store O"}, "area_code": "13114"},
+    {"type": "node", "id": 9001, "lat": 35.450, "lon": 139.630, "tags": {"shop": "convenience", "name": "Store outside Tokyo wards"}, "area_code": "14100"}
+  ]
+}
