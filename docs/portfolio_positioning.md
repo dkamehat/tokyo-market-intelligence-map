@@ -1,5 +1,40 @@
 # Portfolio Positioning
 
+## How this project should be evaluated
+
+**Positioning:** a **public-data Market Intelligence skill that could be embedded into a
+strategy AI or decision-support workflow** — not a standalone product, and not the "strategy
+AI" itself. It demonstrates the upstream intelligence layer such a system would depend on:
+discovering public data, turning it into defensible signals, and packaging the result as a
+caveated, reproducible decision input.
+
+### Evaluate it on
+
+- **Business-problem framing** — converting an ambiguous question ("where to prioritize in
+  Tokyo?") into measurable public-data signals.
+- **Public-data discovery and integration** — finding credible official sources and joining
+  them on a stable municipality-code spine.
+- **Proxy design** — choosing labeled proxies (resident demand, daytime activity, commercial
+  density, cost pressure) and saying plainly what each can and cannot mean.
+- **Provenance discipline** — live vs. sample vs. pending kept explicit; sample data is never
+  shown as real.
+- **Uncertainty / confidence handling** — per-ward confidence and a data-uncertainty penalty,
+  surfaced rather than hidden.
+- **Scenario analysis** — decision lenses (Residential / Daytime activity / Cost-sensitive)
+  that are sensitivity analysis, not data truth.
+- **Decision communication** — a decision memo a stakeholder can act on.
+- **Reproducibility** — tests, CI, a live-data runbook, and a release checklist.
+
+### Do not evaluate it as
+
+- a production forecasting model;
+- a final site-selection tool;
+- a revenue, actual-demand, or profitability predictor;
+- a polished commercial SaaS product.
+
+It is **first-cut public-data screening** — a skill and a workflow, deliberately scoped to what
+public data can defensibly support.
+
 ## English resume bullet
 
 Built a public-data Market Intelligence BI product for Tokyo that ranks commercial opportunity areas by combining demographic, accessibility, commercial-density, competition, cost, and data-quality signals. Designed the system as a scenario-driven decision tool with explicit confidence and proxy-risk handling, not a static dashboard.
