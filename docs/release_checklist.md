@@ -41,6 +41,10 @@ recommended next sprint (OSM Competition live reliability).
 4. **`docs/metric_design.md`**: score definitions, the Opportunity formula, scenario presets.
 5. **`app/streamlit_app.py`** / dashboard: real-vs-synthetic separation + scenario selector.
 
+For how the project should be evaluated (a public-data Market Intelligence skill, not a
+forecasting model), see the README's "How to evaluate this project" and
+[`portfolio_positioning.md`](portfolio_positioning.md).
+
 ## How to reproduce live data
 
 Credentials/config live in `.env` (never committed): `ESTAT_APP_ID`, `ESTAT_STATS_DATA_ID`

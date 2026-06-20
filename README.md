@@ -41,6 +41,27 @@ reproduce the results via the [live data runbook](docs/live_data_runbook.md).
 
 ---
 
+## How to evaluate this project
+
+**What it is:** a reproducible **public-data Market Intelligence workflow** — a skill that
+**could be embedded into a broader strategy AI or decision-support workflow**.
+
+**What it is not:** a production site-selection system, a revenue-forecasting model, or a
+final-decision tool. It is first-cut *screening*, not a forecast.
+
+Best evaluated on the **thinking and the engineering**, not on a single ranking:
+
+- turning an ambiguous business question into measurable public-data signals;
+- provenance discipline — live vs. sample vs. pending kept explicit, never blurred;
+- confidence and uncertainty made visible per ward;
+- scenario presets as decision lenses (sensitivity analysis, not data truth);
+- limitations stated *before* recommendations;
+- a decision-memo output a stakeholder can act on.
+
+More detail: [portfolio positioning](docs/portfolio_positioning.md).
+
+---
+
 ## Screenshots
 
 The dashboard makes **first-cut public-data screening** explicit — scenario presets, REAL vs
