@@ -82,7 +82,7 @@ For a senior BI / Intelligence reviewer, in order of "so what?" → "how":
 4. **[Metric design](docs/metric_design.md)** — how each score and the Opportunity formula are defined.
 5. **Dashboard / app** (`app/streamlit_app.py`) — the interactive view with real-vs-synthetic separation and scenario weights.
 
-Supporting docs: [data sources](docs/data_sources.md) · [implementation plan](docs/implementation_plan.md) · [portfolio positioning](docs/portfolio_positioning.md) · [release checklist](docs/release_checklist.md).
+Supporting docs: [data sources](docs/data_sources.md) · [implementation plan](docs/implementation_plan.md) · [portfolio positioning](docs/portfolio_positioning.md) · [release checklist](docs/release_checklist.md) · [future roadmap](docs/future_roadmap.md).
 
 ## Architecture
 
