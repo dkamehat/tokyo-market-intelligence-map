@@ -30,7 +30,7 @@ overclaimed. Last audited: June 2026.
 - **Growth layer** — not implemented (omitted, not faked).
 - Reaching **High** confidence needs ≥ 3 live coverage layers (i.e. OSM or N02 live).
 
-See [`docs/future_roadmap.md`](future_roadmap.md) for the next development directions and the
+See the [Future Roadmap](future_roadmap.md) for the next development directions and the
 recommended next sprint (OSM Competition live reliability).
 
 ## How to review the portfolio (reviewer path)
